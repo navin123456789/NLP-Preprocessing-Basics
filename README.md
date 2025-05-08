@@ -42,7 +42,7 @@ tfidf_matrix = vectorizer.fit_transform(corpus)
 pca = PCA(n_components=2)
 vis_coords = pca.fit_transform(tfidf_matrix.toarray())
 
-# Assignment 1.3: Seq2Seq Text Summarization with LSTM
+## Assignment 1.3: Seq2Seq Text Summarization with LSTM
 
 - **Synthetic Dataset**: 200 auto-generated news articles (title + summary pairs)
 - **Seq2Seq Architecture**: LSTM-based encoder-decoder
@@ -69,7 +69,7 @@ vis_coords = pca.fit_transform(tfidf_matrix.toarray())
    - Evaluation
 
 ## Conclusion
-# NLP Assignment Suite
+## NLP Assignment Suite
 
 **Three NLP projects covering preprocessing, embeddings, and text summarization**  
 *Implemented with Python, NLTK, TensorFlow, and interactive web interfaces*
@@ -94,8 +94,11 @@ tensorflow==2.15.0 Dependencies
 
 ## This README features:
 1.All Projects in One Place
+
 2.Zero Guesswork Setup
+
 3.Technical Deep Dives
+
 4.Dependency Made Simple
 
 
