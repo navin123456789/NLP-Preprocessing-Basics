@@ -76,12 +76,7 @@ vis_coords = pca.fit_transform(tfidf_matrix.toarray())
 
 ---
 
-## Quick Start
-
-### 1. Clone Repository
-git clone https://github.com/navin123456789/NLP-Preprocessing-Basics.git
-cd nlp-assignment-suite
-### 2. Install Dependencies
+###  Dependencies
 pip install -r requirements.txt
 python -m nltk.downloader punkt wordnet averaged_perceptron_tagger
 
@@ -90,16 +85,7 @@ fastapi==0.109.2
 uvicorn==0.27.1
 scikit-learn==1.4.0
 gradio==4.14.0
-tensorflow==2.15.0 Dependencies
-
-## This README features:
-1.All Projects in One Place
-
-2.Zero Guesswork Setup
-
-3.Technical Deep Dives
-
-4.Dependency Made Simple
+tensorflow==2.15.0
 
 
 
